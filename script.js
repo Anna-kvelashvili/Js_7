@@ -4,6 +4,7 @@ let navigationElement = document.getElementById("navBar");
 let burgerElement = document.getElementById("burgerBar");
 
 burgerElement.addEventListener("click", function () {
+  burgerElement.classList.toggle("activeBurger");
   navigationElement.classList.toggle("navActive");
 });
 
@@ -37,4 +38,3 @@ deleetAllItems.addEventListener("click", function (e) {
   ulElementItems.innerHTML = " ";
 });
 
-// icon - ვერაფრით ავამუშავე
